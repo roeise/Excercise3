@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+h1 {text-align: center;}
+a {text-align: center;}
+div {text-align: center;}
+</style>
+
+<div class="header">
+    <link rel="stylesheet" href="..\static\global.css">
+    <script src="..\static\javaScriptBlin.js"></script>
+
+
+
+  {% if session['username'] %}
+    <h4>!Egy étvággyal - בתאבון ,{{ session['nickname'] }}</h4>
+{% endif %}
+
+</div>
+
+</head>
+
+
+
+
+
+
